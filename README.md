@@ -7,11 +7,11 @@ COMPILING AND RUNNING:
 
 	It's pretty straightforward to compile, as an example:
 	
-	gcc vigenere.c -o vigenere
+	gcc mv2.c -o mv2
 	
 	The binary takes 1-3 arguments:
 	
-	caesar KEYS SIGN KEYB
+	mv2 KEYS SIGN KEYB
 	- KEYS is the filename of the shift key
 	- SIGN is which way (+1 increases all values by 1, -1 decreases)	[default of 1]
 	- KEYB is the filename of the bytesize key							[if not specified, letter Vigenere cipher is performed]
